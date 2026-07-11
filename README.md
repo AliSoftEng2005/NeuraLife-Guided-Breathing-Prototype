@@ -1,32 +1,76 @@
-# React + TypeScript + Vite
+# NeuraLife Guided Breathing Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains a conceptual implementation of the **Guided Breathing** feature from the **NeuraLife – Smart Mental Wellness Ecosystem**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project demonstrates how one of the proposed mobile application features could be implemented in a future beta version.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Objective
 
-## Expanding the Oxlint configuration
+The objective of this prototype is to simulate the breathing exercise function proposed in the NeuraLife UI/UX design by providing:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Guided breathing phases
+- Animated breathing circle
+- Countdown timer
+- Session progress tracking
+- Voice guidance
+- Pause and restart controls
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+---
+
+## Technologies
+
+- React
+- TypeScript
+- Vite
+- CSS3
+- Web Speech API
+
+---
+
+## Functional Workflow
+
+```text
+Start Session
+      ↓
+Inhale
+      ↓
+Hold
+      ↓
+Exhale
+      ↓
+Repeat for Multiple Cycles
+      ↓
+Session Completed
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## Features
+
+- Guided breathing animation
+- Countdown timer
+- Voice instructions
+- Session controls
+- Progress indicator
+- Responsive interface
+
+---
+
+## Purpose
+
+This project serves as a **proof-of-concept implementation** for the Human Computer Interaction (HCI) course.
+
+The implementation represents how the Guided Breathing module could be developed during the software implementation phase.
+
+---
+
+## Author
+
+Ali leader Grp 48 
+Taylor's University
+
+Software Engineering
